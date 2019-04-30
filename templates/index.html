@@ -9,7 +9,10 @@
 <div align="center">
 <h1>Ted Beaver</h1>
 {% if valveState %}
-  <h2>valve is {{valveState}}</h2>
+  <h1>valve is {{valveState}}</h1>
+{% endif %}
+{% if motion %}
+  <h1>motion detected! {{motion}}</h1>
 {% endif %}
 <table>
     <tr>
